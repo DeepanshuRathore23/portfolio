@@ -1,0 +1,174 @@
+
+.navbar-brand{
+    font-size: 200%;
+    color: white;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+}
+.nav-link{
+    font-size: 150%;
+    color: white;
+}
+
+@media screen and (min-width:970px ) and (max-width:1200px) {
+    #home{
+        margin-left: 100px;
+    }
+}
+@media screen and (min-width:1201px )  {
+    #home{
+        margin-left: 400px;
+    }
+}
+#home{
+    
+    color: white;
+}
+#about{
+    color: white;
+}
+#Projects{
+    color: white;
+}
+#contact{
+    color: white;
+}
+#home::before{
+    content: '';
+    position: absolute; 
+    margin-top: 51px;   
+    width: 75px;
+    height: 4px;
+    background: blueviolet;
+    transform: scale(0,1);
+    transition: transform 0.3s ease ;
+    transform-origin: 0% 100%;
+}
+
+#home:hover::before{
+    transform: scale(1,1);
+}
+#about::before{
+    content: '';
+    position: absolute; 
+    margin-top: 51px;   
+    width: 75px;
+    height: 4px;
+    background: blueviolet;
+    transform: scale(0,1);
+    transition: transform 0.3s ease ;
+    transform-origin: 0% 100%;
+}
+#about:hover::before{
+    transform: scale(1,1);
+}
+#Projects::before{
+    content: '';
+    position: absolute; 
+    margin-top: 51px;   
+    width: 75px;
+    height: 4px;
+    background: blueviolet;
+    transform: scale(0,1);
+    transition: transform 0.3s ease ;
+    transform-origin: 0% 100%;
+}
+
+#Projects:hover::before{
+    transform: scale(1,1);
+}
+#contact::before{
+    content: '';
+    position: absolute; 
+    margin-top: 51px;   
+    width: 75px;
+    height: 4px;
+    background: #8a2be2;
+    transform: scale(0,1);
+    transition: transform 0.3s ease ;
+    transform-origin: 0% 100%;
+}
+.navbar-toggler{
+    color: white;
+}
+
+#contact:hover::before{
+    transform: scale(1,1);
+}
+.nav-link:hover{
+    color: white;
+}
+#home:hover{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+#about:hover{
+    color: white;
+}
+
+
+.bada-dubba{
+    height: 500px;
+    width: 100%;
+    margin-top: 60px;
+    padding: 30px;
+    font-size: 300%;
+    background-image: url(portback3.jpg);
+}
+@media screen and (min-width:600px) and (max-width:750px) {
+    .bada-dubba{
+        font-size: 200%;
+    }
+}
+@media screen and (min-width:500px) and (max-width:600px) {
+    .bada-dubba{
+        font-size: 130%;
+    }
+}
+
+
+.aboutme{
+    margin: 10%;
+    background-color: rgb(195, 195, 195);    
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 50px;
+}
+.contact{
+    height: 400px;
+    width: 100%;
+    /* background-image: url(portback3.jpg); */
+    padding: 50px;
+    margin-top: 50px;   
+    color: white;
+    background-color: rgb(0, 42, 0);
+
+}
+.projects{
+    display: flex;
+    margin-top: 10px;
+}
+.card1{
+    margin-left: 300px;
+}
+.card2{
+    margin-left: 200px;
+}
+p2{
+    font-size: 400%;
+}
+.title-box{
+    font-size: 300%;
+}
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .source{
+        margin-left: 100px;
+    }
+}
